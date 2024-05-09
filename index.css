@@ -1,0 +1,32 @@
+.game-container{
+    background-color:rgb(109, 20, 196);
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: white;
+    gap: 1 rem;
+    transition: all 0.2s;
+}
+.specs{
+    padding: 30px;
+    margin-left: 30px;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+     background-image:#008CFF;
+}
+.thumbnail{
+    border-radius: 10px;
+}
+.game-container:hover{
+    transform: scale(1.1);
+}
+.game-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
